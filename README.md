@@ -1,2 +1,2 @@
 # Spotify
-cloned Sotify
+cloned Spotify
