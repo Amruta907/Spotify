@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="option">
+                    <i class="fa-etch fa-solid fa-house"></i>
+                    <a href="Abc">Home</a>
+                </div>
+                <div class="option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="$">Search</a>
+                </div>
+            </div>
+
+            <!-- library -->
+
+            <div class="library">
+                <div class="head">
+                    <div class="content">
+                        <img src="./assets/library_icon.png" alt="library_icon" height="20px">
+                        <a href="ab">Your Library</a>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                
+            <!-- boxes in library -->
+                <div class="lib-box">
+                    <div class="box1">
+                        <div class="para1">Create your first playlist</div>
+                        <div class="para2">It's easy, we'll help you</div>
+                        <button class="badge">Create Playlist</button>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box1">
+                        <div class="para1">Let's find some podcaste to follow</div>
+                        <div class="para2">We'll keep you updated on new episodes</div>
+                        <button class="badge">Browse podcaste</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-options">
+                    <img src="./assets/backward_icon.png" alt="backward_icon" class="backward" height="25px">
+                </div>
+                <div id="search-bar">
+                    <i class="fa-solid fa-magnifying-glass" class="search-icon"></i>
+                    <input type="text" placeholder="What you want to search" id="search">
+                    <div class="browse-icon">
+                        <i class="fa-solid fa-window-restore" class="browse-icon"></i>
+                    </div>
+                    
+                </div>
+                <div class="install"> 
+                    <button class="badge" id="badge1">Explore premium</button>
+                    <button class="badge" id="badge2">Install App</button>
+                    <img src="./assets/logo.png" alt="" height="40px" class="logo">
+                </div>
+            </div>
+            <div class="cards">
+                <div class="heading1">
+                   <h3> Most trending songs</h3>
+                </div>
+                <div class="trending-songs">
+                    <div id="card1" class="songs-cards">
+                        <img src="./assets/saiyara img1.jpg" alt="">
+                        <div class="song-name">
+                            <p>Saiyaara (from "Saiyaara")</p>
+                        </div>
+                        <div class="song-details">
+                            <p>Tanishq Bagchi, Faheem Abdullah, Arslan Niza..</p>
+                        </div>
+                    </div>
+                    <div id="card2"class="songs-cards">
+                        <img src="./assets/saiyara img2.jpg" alt="">
+                        <div class="song-name">
+                            <p>Humsafar (from "Saiyaara")</p>
+                        </div>
+                        <div class="song-details">
+                            <p>Sachet-Parampara,Sachet Tandon</p>
+                        </div>
+                    </div>
+                    <div id="card3"class="songs-cards">
+                        <img src="./assets/saiyara img3.jpg" alt="">
+                        <div class="song-name">
+                            <p>Barbaad (from "Saiyaara")</p>
+                        </div>
+                        <div class="song-details">
+                            <p>The Rish, Jubin Nautiyal</p>
+                        </div>
+                    </div>
+                    <div id="card4"class="songs-cards">
+                        <img src="./assets/saiyara img4.jpg" alt="">
+                        <div class="song-name">
+                            <p>Tum Ho To (from "Saiyaara")</p>
+                        </div>
+                        <div class="song-details">
+                            <p>Vishal Mishra, Hansika Pareek, Raj Shekhar</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="heading1">
+                   <h3> Popular Albums</h3>
+                </div>
+                <div class="trending-songs">
+                    <div id="card1" class="songs-cards">
+                        <img src="./assets/popular img1.jpg" alt="">
+                        <div class="song-name">
+                            <p>Aashiqui 2</p>
+                        </div>
+                        <div class="song-details">
+                            <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
+                        </div>
+                    </div>
+                    <div id="card2"class="songs-cards">
+                        <img src="./assets/popular img2.jpg" alt="">
+                        <div class="song-name">
+                            <p>Yeh Jawaani Hai Diwani</p>
+                        </div>
+                        <div class="song-details">
+                            <p>Pritam</p>
+                        </div>
+                    </div>
+                    <div id="card3"class="songs-cards">
+                        <img src="./assets/popular img3.jpg" alt="">
+                        <div class="song-name">
+                            <p>Finding Her</p>
+                        </div>
+                        <div class="song-details">
+                            <p>Kushagra, Bharath, Saaheal</p>
+                        </div>
+                    </div>
+                    <div id="card4"class="songs-cards">
+                        <img src="./assets/popular img4.jpg" alt="">
+                        <div class="song-name">
+                            <p>Jab We Met</p>
+                        </div>
+                        <div class="song-details">
+                            <p>Pritam, Irshad Kamil, Sandesh Shandilya</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="heading1">
+                   <h3> Popular Radio</h3>
+                </div>
+                <div class="trending-songs">
+                    <div id="card1" class="songs-cards">
+                        <img src="./assets/radio img1.jpg" alt="">
+                        <div class="song-name">
+                            <p>Arijit Singh</p>
+                        </div>
+                        <div class="song-details">
+                            <p>With Sachin-Jigar, Jeen Gannguli, Atif Aslam</p>
+                        </div>
+                    </div>
+                    <div id="card2"class="songs-cards">
+                        <img src="./assets/radio img2.jpg" alt="">
+                        <div class="song-name">
+                            <p>KK</p>
+                        </div>
+                        <div class="song-details">
+                            <p>with Pritam, Atif Aslam, Muastafa Zahi</p>
+                        </div>
+                    </div>
+                    <div id="card3"class="songs-cards">
+                        <img src="./assets/radio img3.jpg" alt="">
+                        <div class="song-name">
+                            <p>Kishor Kumar</p>
+                        </div>
+                        <div class="song-details">
+                            <p>With Mukesh, Hemant Kumar, Tabassum</p>
+                        </div>
+                    </div>
+                    <div id="card4"class="songs-cards">
+                        <img src="./assets/radio img4.jpg" alt="">
+                        <div class="song-name">
+                            <p>Shreya Ghoshal</p>
+                        </div>
+                        <div class="song-details">
+                            <p>With Sonu Nigam, Atif Aslam, AR Rahman</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="cards">
+                <div class="heading1">
+                   <h3> Podcastes</h3>
+                </div>
+                <div class="trending-songs">
+                    <div id="card1" class="songs-cards">
+                        <img src="./assets/podcaste img1.jpg" alt="">
+                        <div class="song-name">
+                            <p>Raj Shamani's Figuring Out</p>
+                        </div>
+                        <div class="song-details">
+                            <p>Raj Shamani</p>
+                        </div>
+                    </div>
+                    <div id="card2"class="songs-cards">
+                        <img src="./assets/podcaste img2.jpg" alt="">
+                        <div class="song-name">
+                            <p>Quran</p>
+                        </div>
+                        <div class="song-details">
+                            <p>vrssrs</p>
+                        </div>
+                    </div>
+                    <div id="card3"class="songs-cards">
+                        <img src="./assets/podcaste img3.jpg" alt="">
+                        <div class="song-name">
+                            <p>Horror Podcate Hindi</p>
+                        </div>
+                        <div class="song-details">
+                            <p>RJM Praveen</p>
+                        </div>
+                    </div>
+                    <div id="card4"class="songs-cards">
+                        <img src="./assets/podcaste img4.jpg" alt="">
+                        <div class="song-name">
+                            <p>The Ranveer's Show</p>
+                        </div>
+                        <div class="song-details">
+                            <p>BeerBiceps</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <img src="./assets/saiyara img1.jpg" alt="">
+                <div class="music-start">
+                    <a href="" style="opacity: 1; font-weight: 500; font-size: 15px;" >Saiyaara (from "Saiyaara")</a> <br>
+                    <a href="">Tanishq Bagchi, Faheem Abdullah, Arslan Nizami, Irshad Kamil</a>
+                </div>
+                <i class="fa-solid fa-circle-plus"></i>
+            </div>
+            <div class="player">
+                <div class="player-control">
+                    <i class="fa-solid fa-shuffle" class="player-control-icons"></i>
+                    <i class="fa-solid fa-backward-step" class="player-control-icons"></i>
+                    <i class="fa-solid fa-play" class="player-control-icons"></i>
+                    <i class="fa-solid fa-forward-step" class="player-control-icons"></i>
+                    <i class="fa-solid fa-repeat" class="player-control-icons"></i>
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" class="progress-bar" min="0" max="100">
+                    <span class="tot-time">04:37</span>
+                </div>
+            </div>
+            <div class="control">
+                <i class="fa-solid fa-download"></i>
+                <i class="fa-solid fa-headset"></i>
+                <i class="fa-solid fa-volume-low"></i>
+                <input type="range" min="0" max="100" class="range-control">
+                <i class="fa-solid fa-expand"></i>
+                <i class="fa-solid fa-computer"></i>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
